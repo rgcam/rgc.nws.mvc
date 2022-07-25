@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "VR21wsYdLm5TpR7x1kq6wUVnhBuvkco/HIUltzhY9zI=",
+  "Source": "rgc.nws.webapi",
+  "BasePath": "_content/rgc.nws.webapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/ryancameron/Projects/research.nws.api/rgc.nws.model/rgc.nws.model.csproj",
+      "Version": 2,
+      "Source": "rgc.nws.model",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>rgc.nws.webapi</name>
+    </assembly>
+    <members>
+        <member name="M:rgc.nws.webapi.Controllers.NWSController.GetWeatherForecast">
+            <summary>
+            Returns informations for a specific city.
+            </summary>
+            <returns></returns>
+            <remarks>
+            {
+                "Latitude" : 40.585258,
+                "Longitude" : -105.084419
+            }
+            </remarks>
+            <response code="200">Returns the response.</response>
+            <response code="400">If the item is null</response>
+        </member>
+        <member name="M:rgc.nws.webapi.Utilities.Constants.LatLongForecastEndpoint(rgc.nws.model.Forecast.InputLatLongForecast)">
+            <summary>
+            The National Weather Service (NWS) endpoint used for retrieving forecast data. Requires the latitude and longitude of the city in which the forecast is needed.
+            </summary>
+            <param name="latitude"></param>
+            <param name="longitude"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
